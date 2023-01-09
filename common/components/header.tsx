@@ -11,32 +11,34 @@ const Header = () => {
 
   return (
     <>
-      <nav>
-        <div className='flex flex-row justify-between p-4 px-5 border'>
-          <div className='flex items-center space-x-3'>
-            <button
-              onClick={() => setShowMenu(!showMenu)}
-              className='p-2 border rounded-md'
-            >
-              <FaGripLines />
-            </button>
-            <span className='text-lg font-bold'>Drew</span>
-          </div>
-          <div className='flex items-center space-x-3'>
-            <button className='p-2 border rounded-md'>
-              <FaRedditAlien />
-            </button>
-            <button className='p-2 border rounded-md'>
-              <FaDiscord />
-            </button>
-          </div>
+      <div
+        className={` ${
+          !showMenu ? 'fixed' : 'hidden'
+        } top-0 left-0 right-0 z-10 flex flex-row justify-between p-4 px-5 bg-white border`}
+      >
+        <div className='flex items-center space-x-3'>
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className='p-2 border rounded-md'
+          >
+            <FaGripLines />
+          </button>
+          <span className='text-lg font-bold'>Drew</span>
         </div>
-      </nav>
+        <div className='flex items-center space-x-3'>
+          <button className='p-2 border rounded-md'>
+            <FaRedditAlien />
+          </button>
+          <button className='p-2 border rounded-md'>
+            <FaDiscord />
+          </button>
+        </div>
+      </div>
 
       {/* MOBILE HIDDEN MENU */}
       {showMenu && (
-        <div className='container mx-auto overflow-auto'>
-          <div className='absolute top-0 left-0 z-10 w-full bg-white '>
+        <div className='container fixed top-0 left-0 right-0 z-0 h-screen mx-auto overflow-auto bg-white'>
+          <div className='absolute top-0 left-0 w-full bg-white '>
             <div className='flex flex-row justify-between p-4 px-5 border'>
               <div className='flex items-center space-x-3'>
                 <button
