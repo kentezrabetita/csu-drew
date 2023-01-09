@@ -37,7 +37,7 @@ const Header = () => {
 
       {/* MOBILE HIDDEN MENU */}
       {showMenu && (
-        <div className='container fixed top-0 left-0 right-0 z-0 h-screen mx-auto overflow-auto bg-white'>
+        <div className='container fixed top-0 left-0 right-0 z-10 h-screen mx-auto overflow-auto bg-white'>
           <div className='absolute top-0 left-0 w-full bg-white '>
             <div className='flex flex-row justify-between p-4 px-5 border'>
               <div className='flex items-center space-x-3'>
