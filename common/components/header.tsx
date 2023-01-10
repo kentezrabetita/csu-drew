@@ -11,10 +11,10 @@ const Header = () => {
 
   return (
     <>
-      <div
+      <header
         className={` ${
-          !showMenu ? 'fixed' : 'hidden'
-        } top-0 left-0 right-0 z-10 flex flex-row justify-between p-4 px-5 bg-white border`}
+          !showMenu ? 'sticky' : 'hidden'
+        } top-0 z-50 flex flex-row justify-between p-4 px-5 bg-white border-b`}
       >
         <div className='flex items-center space-x-3'>
           <button
@@ -23,7 +23,7 @@ const Header = () => {
           >
             <FaGripLines />
           </button>
-          <span className='text-lg font-bold'>Drew</span>
+          <span className='text-lg font-bold'>CSU Drew</span>
         </div>
         <div className='flex items-center space-x-3'>
           <button className='p-2 border rounded-md'>
@@ -33,12 +33,12 @@ const Header = () => {
             <FaDiscord />
           </button>
         </div>
-      </div>
+      </header>
 
       {/* MOBILE HIDDEN MENU */}
       {showMenu && (
         <div className='container fixed top-0 left-0 right-0 z-10 h-screen mx-auto overflow-auto bg-white'>
-          <div className='absolute top-0 left-0 w-full bg-white '>
+          <div className='top-0 left-0 block w-full bg-white '>
             <div className='flex flex-row justify-between p-4 px-5 border'>
               <div className='flex items-center space-x-3'>
                 <button

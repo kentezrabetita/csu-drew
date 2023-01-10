@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const HomeContent = () => {
   return (
-    <div className='container relative flex flex-col p-4 px-5 mt-16 space-y-10'>
+    <div className='container flex flex-col p-4 px-5 space-y-10'>
       {/* Services Section */}
       <section>
         <div className='flex flex-col space-y-3'>
