@@ -189,7 +189,7 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Financial</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
@@ -278,7 +278,7 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Housing</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
@@ -367,7 +367,7 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Social</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
@@ -456,7 +456,7 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Resources</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
@@ -545,7 +545,7 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Miscellaneous</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
@@ -634,7 +634,7 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Programs</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
