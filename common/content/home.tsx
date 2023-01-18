@@ -173,7 +173,7 @@ const HomeContent = () => {
           </Link>
           <div className='grid grid-cols-2 gap-4'>
             <Link
-              href={'https://www.reddit/r/carsu'}
+              href={'https://www.reddit.com/r/carsu'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >

@@ -24,7 +24,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href={'https://github.com/kentezrabetita'}
+            href={'/contribute'}
             className='flex items-center space-x-3'
             target='_blank'
           >
@@ -34,7 +34,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href={'https://github.com/kentezrabetita'}
+            href={'/contacts'}
             className='flex items-center space-x-3'
             target='_blank'
           >
@@ -44,7 +44,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href={'https://github.com/kentezrabetita'}
+            href={'https://discord.gg/gPc3myEGZV'}
             className='flex items-center space-x-3'
             target='_blank'
           >
@@ -54,7 +54,7 @@ const Footer = () => {
         </li>
         <li>
           <Link
-            href={'https://github.com/kentezrabetita'}
+            href={'https://www.reddit.com/r/carsu'}
             className='flex items-center space-x-3'
             target='_blank'
           >
