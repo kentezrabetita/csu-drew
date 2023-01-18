@@ -110,6 +110,39 @@ const HomeContent = () => {
         </div>
       </section>
 
+      {/* Financial Section */}
+      <section>
+        <div className='flex flex-col space-y-3'>
+          <Link href={'/courses'} className='flex items-center justify-between'>
+            <h3 className='text-xl font-bold'>Financial</h3>
+            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
+          </Link>
+          <div className='grid grid-cols-2 gap-4'>
+            <Link
+              href={'https://myschool.carsu.edu.ph/index.php?q=My_balance'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Balance
+            </Link>
+            <Link
+              href={'/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Financial Aid
+            </Link>
+            <Link
+              href={'/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Scholarship
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Colleges Section */}
       <section>
         <div className='flex flex-col space-y-3'>
