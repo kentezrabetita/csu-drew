@@ -143,55 +143,20 @@ const HomeContent = () => {
         </div>
       </section>
 
-      {/* Colleges Section */}
+      {/* Housing Section */}
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Colleges</h3>
+            <h3 className='text-xl font-bold'>Housing</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
             <Link
-              href={'http://cofes.carsu.edu.ph/'}
+              href={'/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              COFES
-            </Link>
-            <Link
-              href={'https://5d8c147883e8f.site123.me/'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              CMNS
-            </Link>
-            <Link
-              href={'http://cegs.carsu.edu.ph/'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              CEGS
-            </Link>
-            <Link
-              href={'https://ccis.carsu.edu.ph/'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              CCIS
-            </Link>
-            <Link
-              href={'https://ccis.carsu.edu.ph/'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              CAA
-            </Link>
-            <Link
-              href={'http://chass.carsu.edu.ph/'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              CHASS
+              Dorms
             </Link>
           </div>
         </div>
@@ -264,6 +229,60 @@ const HomeContent = () => {
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
               Handbook
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Colleges Section */}
+      <section>
+        <div className='flex flex-col space-y-3'>
+          <Link href={'/courses'} className='flex items-center justify-between'>
+            <h3 className='text-xl font-bold'>Colleges</h3>
+            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
+          </Link>
+          <div className='grid grid-cols-2 gap-4'>
+            <Link
+              href={'http://cofes.carsu.edu.ph/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              COFES
+            </Link>
+            <Link
+              href={'https://5d8c147883e8f.site123.me/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              CMNS
+            </Link>
+            <Link
+              href={'http://cegs.carsu.edu.ph/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              CEGS
+            </Link>
+            <Link
+              href={'https://ccis.carsu.edu.ph/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              CCIS
+            </Link>
+            <Link
+              href={'https://ccis.carsu.edu.ph/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              CAA
+            </Link>
+            <Link
+              href={'http://chass.carsu.edu.ph/'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              CHASS
             </Link>
           </div>
         </div>
