@@ -16,81 +16,34 @@ const HomeContent = () => {
           </Link>
           <div className='grid grid-cols-2 gap-4'>
             <Link
-              href={'https://www.google.com'}
+              href={
+                'https://sso.carsu.edu.ph/sso/module.php/core/loginuserpassorg.php?AuthState=_0e2b7048b06cbff8986ad5f0895a3089516863451b%3Ahttps%3A%2F%2Fsso.carsu.edu.ph%2Fsso%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Fsso%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fdefault-sp%26cookieTime%3D1674073107%26RelayState%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Findex.php%253Fq%253Dsaml_login'
+              }
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              MySchool
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://masaolms.carsu.edu.ph/login/index.php'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              MyLMS
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://admission.carsu.edu.ph/sites/admission_portal/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              MyAdmissions
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://csulibrary.github.io/carsulibrary/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
+              MyLibrary
             </Link>
           </div>
         </div>
@@ -105,259 +58,86 @@ const HomeContent = () => {
           </Link>
           <div className='grid grid-cols-2 gap-4'>
             <Link
-              href={'https://www.google.com'}
+              href={'https://myschool.carsu.edu.ph/index.php?q=evaluation'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              Grades
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://myschool.carsu.edu.ph/index.php?q=My_transcript'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              Transcript
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://myschool.carsu.edu.ph/index.php?q=onlineclearance'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              Clearance
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://myschool.carsu.edu.ph/index.php?q=myappointment'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
+              Appointment
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Financial Section */}
+      {/* Colleges Section */}
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Financial</h3>
+            <h3 className='text-xl font-bold'>Colleges</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
             <Link
-              href={'https://www.google.com'}
+              href={'http://cofes.carsu.edu.ph/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              COFES
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://5d8c147883e8f.site123.me/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              CMNS
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'http://cegs.carsu.edu.ph/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              CEGS
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://ccis.carsu.edu.ph/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              CCIS
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://ccis.carsu.edu.ph/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              CAA
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'http://chass.carsu.edu.ph/'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Housing Section */}
-      <section>
-        <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Housing</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
-          <div className='grid grid-cols-2 gap-4'>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
+              CHASS
             </Link>
           </div>
         </div>
@@ -367,353 +147,39 @@ const HomeContent = () => {
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Social</h3>
+            <h3 className='text-xl font-bold'>Socials</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
             <Link
-              href={'https://www.google.com'}
+              href={'https://www.reddit/r/carsu'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              Reddit
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'https://discord.gg/gPc3myEGZV'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              Discord
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={
+                'https://www.carsu.edu.ph/?q=student-campus-org/student-campus-organization'
+              }
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
+              Clubs
             </Link>
             <Link
-              href={'https://www.google.com'}
+              href={'/facebook'}
               target='_blank'
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Resources Section */}
-      <section>
-        <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Resources</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
-          <div className='grid grid-cols-2 gap-4'>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Misc Section */}
-      <section>
-        <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Miscellaneous</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
-          <div className='grid grid-cols-2 gap-4'>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Program Section */}
-      <section>
-        <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Programs</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
-          <div className='grid grid-cols-2 gap-4'>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
-            </Link>
-            <Link
-              href={'https://www.google.com'}
-              target='_blank'
-              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
-            >
-              Example
+              Facebook
             </Link>
           </div>
         </div>
