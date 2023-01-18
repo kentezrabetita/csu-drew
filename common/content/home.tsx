@@ -49,11 +49,11 @@ const HomeContent = () => {
         </div>
       </section>
 
-      {/* Courses Section */}
+      {/* Account Section */}
       <section>
         <div className='flex flex-col space-y-3'>
           <Link href={'/courses'} className='flex items-center justify-between'>
-            <h3 className='text-xl font-bold'>Courses</h3>
+            <h3 className='text-xl font-bold'>Account</h3>
             <h3 className='pr-2 text-sm text-gray-500'>more</h3>
           </Link>
           <div className='grid grid-cols-2 gap-4'>
@@ -84,6 +84,27 @@ const HomeContent = () => {
               className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
             >
               Appointment
+            </Link>
+            <Link
+              href={'https://myschool.carsu.edu.ph/index.php?q=My_schedule'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Schedule
+            </Link>
+            <Link
+              href={'https://myschool.carsu.edu.ph/index.php?q=mysurvey'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Survey
+            </Link>
+            <Link
+              href={'https://myschool.carsu.edu.ph/index.php?q=csg-election'}
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Votes
             </Link>
           </div>
         </div>
