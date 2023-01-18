@@ -205,6 +205,36 @@ const HomeContent = () => {
           </div>
         </div>
       </section>
+
+      {/* Resources Section */}
+      <section>
+        <div className='flex flex-col space-y-3'>
+          <Link href={'/courses'} className='flex items-center justify-between'>
+            <h3 className='text-xl font-bold'>Resources</h3>
+            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
+          </Link>
+          <div className='grid grid-cols-2 gap-4'>
+            <Link
+              href={
+                'https://drive.google.com/drive/folders/1-2P2uJiziZHND_8gH5-d20uDmAiPs5gt'
+              }
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              E-books
+            </Link>
+            <Link
+              href={
+                'https://www.carsu.edu.ph/sites/default/files/downloadables/Student%20Handbook%20Final%20Revision.pdf'
+              }
+              target='_blank'
+              className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+            >
+              Handbook
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
