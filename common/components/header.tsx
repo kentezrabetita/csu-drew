@@ -6,7 +6,7 @@ import { IoMdSettings } from 'react-icons/io';
 
 import Link from 'next/link';
 
-const Header = () => {
+const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -18,7 +18,10 @@ const Header = () => {
       >
         <div className='flex items-center space-x-3'>
           <button
-            onClick={() => setShowMenu(!showMenu)}
+            onClick={() => {
+              handleShowContent(showMenu);
+              setShowMenu(!showMenu);
+            }}
             className='p-2 border rounded-md'
           >
             <FaGripLines />
@@ -37,12 +40,15 @@ const Header = () => {
 
       {/* MOBILE HIDDEN MENU */}
       {showMenu && (
-        <header className='container sticky top-0 left-0 right-0 z-10 h-screen mx-auto overflow-auto bg-white'>
-          <div className='absolute top-0 left-0 block w-full bg-white '>
+        <header className='container mx-auto overflow-y-hidden bg-white'>
+          <div className='w-full overflow-hidden bg-white '>
             <div className='flex flex-row justify-between p-4 px-5 border-b'>
               <div className='flex items-center space-x-3'>
                 <button
-                  onClick={() => setShowMenu(!showMenu)}
+                  onClick={() => {
+                    handleShowContent(showMenu);
+                    setShowMenu(!showMenu);
+                  }}
                   className='p-2 border rounded-md'
                 >
                   <CgClose />
@@ -50,7 +56,7 @@ const Header = () => {
                 <span className='text-lg font-bold'>Drew</span>
               </div>
             </div>
-            <div className='flex flex-col h-screen'>
+            <div className='flex flex-col'>
               <div className='flex flex-row justify-center w-full p-4 space-x-4 border-b'>
                 <Link
                   target={'_blank'}
@@ -69,7 +75,7 @@ const Header = () => {
                   <span>Discord</span>
                 </Link>
               </div>
-              <div className='p-3 border-b'>
+              <div className='p-3'>
                 <ul className='text-sm font-bold'>
                   <li className='p-2 bg-gray-100 border rounded-md'>
                     <Link href={'/'}>Links</Link>
@@ -79,40 +85,6 @@ const Header = () => {
                   </li>
                   <li className='p-2'>
                     <Link href={'/about'}>About</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/contribute'}>Contribute</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/changelog'}>Changelog</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className='p-3 pb-40'>
-                <ul className='text-sm font-bold'>
-                  <li className='p-2'>
-                    <Link href={'/services'}>Services</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/courses'}>Courses</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/financial'}>Financial</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/social'}>Social</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/housing'}>Housing</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/resources'}>Resources</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/miscellaneous'}>Miscellaneous</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/programs'}>Programs</Link>
                   </li>
                 </ul>
               </div>
