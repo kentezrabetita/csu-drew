@@ -7,13 +7,10 @@ const HomeContent = () => {
       {/* Services Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link
-            href={'/services'}
-            className='flex items-center justify-between'
-          >
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Services</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={
@@ -52,10 +49,10 @@ const HomeContent = () => {
       {/* Account Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Account</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={'https://myschool.carsu.edu.ph/index.php?q=evaluation'}
@@ -113,10 +110,10 @@ const HomeContent = () => {
       {/* Financial Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Financial</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={'https://myschool.carsu.edu.ph/index.php?q=My_balance'}
@@ -146,10 +143,10 @@ const HomeContent = () => {
       {/* Housing Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Housing</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={'/'}
@@ -165,10 +162,10 @@ const HomeContent = () => {
       {/* Social Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Socials</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={'https://www.reddit.com/r/carsu'}
@@ -207,10 +204,10 @@ const HomeContent = () => {
       {/* Resources Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Resources</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={
@@ -237,10 +234,10 @@ const HomeContent = () => {
       {/* Colleges Section */}
       <section>
         <div className='flex flex-col space-y-3'>
-          <Link href={'/courses'} className='flex items-center justify-between'>
+          <div className='flex items-center justify-between'>
             <h3 className='text-xl font-bold'>Colleges</h3>
-            <h3 className='pr-2 text-sm text-gray-500'>more</h3>
-          </Link>
+            {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
+          </div>
           <div className='grid grid-cols-2 gap-4'>
             <Link
               href={'http://cofes.carsu.edu.ph/'}
