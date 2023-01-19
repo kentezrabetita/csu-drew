@@ -14,7 +14,7 @@ const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
       <header
         className={` ${
           !showMenu ? 'sticky' : 'hidden'
-        } top-0 z-50 flex flex-row justify-between p-4 px-5 bg-white border-b`}
+        } top-0 z-50 flex flex-row justify-between p-4 px-5 bg-white border-b md:hidden`}
       >
         <div className='flex items-center space-x-3'>
           <button

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Header from '../components/header';
-import Footer from '../components/footer';
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const [showContent, setShowContent] = useState(true);
@@ -15,7 +14,6 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
       {showContent && (
         <>
           <main className='relative'>{children}</main>
-          <Footer />
         </>
       )}
     </>
