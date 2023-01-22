@@ -7,7 +7,7 @@ import { IoMdSettings } from 'react-icons/io';
 
 const HomeContent = () => {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row dark:bg-[#010101] dark:text-gray-300'>
       <Sidebar />
       <div className='flex flex-col items-center justify-center w-full md:ml-80'>
         <div className='container flex flex-col w-full p-4 px-5 pb-10 space-y-10 lg:px-20 xl:px-36'>
@@ -24,14 +24,14 @@ const HomeContent = () => {
                     'https://sso.carsu.edu.ph/sso/module.php/core/loginuserpassorg.php?AuthState=_0e2b7048b06cbff8986ad5f0895a3089516863451b%3Ahttps%3A%2F%2Fsso.carsu.edu.ph%2Fsso%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Fsso%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fdefault-sp%26cookieTime%3D1674073107%26RelayState%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Findex.php%253Fq%253Dsaml_login'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   MySchool
                 </Link>
                 <Link
                   href={'https://masaolms.carsu.edu.ph/login/index.php'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   MyLMS
                 </Link>
@@ -40,14 +40,14 @@ const HomeContent = () => {
                     'https://admission.carsu.edu.ph/sites/admission_portal/'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   MyAdmissions
                 </Link>
                 <Link
                   href={'https://csulibrary.github.io/carsulibrary/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   MyLibrary
                 </Link>
@@ -66,7 +66,7 @@ const HomeContent = () => {
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=evaluation'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Grades
                 </Link>
@@ -75,7 +75,7 @@ const HomeContent = () => {
                     'https://myschool.carsu.edu.ph/index.php?q=My_transcript'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Transcript
                 </Link>
@@ -84,7 +84,7 @@ const HomeContent = () => {
                     'https://myschool.carsu.edu.ph/index.php?q=onlineclearance'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Clearance
                 </Link>
@@ -93,21 +93,21 @@ const HomeContent = () => {
                     'https://myschool.carsu.edu.ph/index.php?q=myappointment'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Appointment
                 </Link>
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=My_schedule'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Schedule
                 </Link>
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=mysurvey'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Survey
                 </Link>
@@ -116,7 +116,7 @@ const HomeContent = () => {
                     'https://myschool.carsu.edu.ph/index.php?q=csg-election'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Votes
                 </Link>
@@ -135,21 +135,21 @@ const HomeContent = () => {
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=My_balance'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Balance
                 </Link>
                 <Link
                   href={'/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Financial Aid
                 </Link>
                 <Link
                   href={'/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Scholarship
                 </Link>
@@ -168,7 +168,7 @@ const HomeContent = () => {
                 <Link
                   href={'/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Dorms
                 </Link>
@@ -187,14 +187,14 @@ const HomeContent = () => {
                 <Link
                   href={'https://www.reddit.com/r/carsu'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Reddit
                 </Link>
                 <Link
                   href={'https://discord.gg/gPc3myEGZV'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Discord
                 </Link>
@@ -203,14 +203,14 @@ const HomeContent = () => {
                     'https://www.carsu.edu.ph/?q=student-campus-org/student-campus-organization'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Clubs
                 </Link>
                 <Link
                   href={'/facebook'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Facebook
                 </Link>
@@ -231,7 +231,7 @@ const HomeContent = () => {
                     'https://drive.google.com/drive/folders/1-2P2uJiziZHND_8gH5-d20uDmAiPs5gt'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   E-books
                 </Link>
@@ -240,7 +240,7 @@ const HomeContent = () => {
                     'https://www.carsu.edu.ph/sites/default/files/downloadables/Student%20Handbook%20Final%20Revision.pdf'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   Handbook
                 </Link>
@@ -259,42 +259,42 @@ const HomeContent = () => {
                 <Link
                   href={'http://cofes.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   COFES
                 </Link>
                 <Link
                   href={'https://5d8c147883e8f.site123.me/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   CMNS
                 </Link>
                 <Link
                   href={'http://cegs.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   CEGS
                 </Link>
                 <Link
                   href={'https://ccis.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   CCIS
                 </Link>
                 <Link
                   href={'https://ccis.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   CAA
                 </Link>
                 <Link
                   href={'http://chass.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md bg-gray-50'
+                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   CHASS
                 </Link>
@@ -302,16 +302,16 @@ const HomeContent = () => {
             </div>
           </section>
         </div>
-        <footer className='w-full bg-white border-t'>
+        <footer className='w-full border-t dark:border-gray-900'>
           <div className='container mx-auto'>
             <div className='flex flex-row items-center p-3 space-x-4 text-gray-500'>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
                 <span>Github</span>
               </button>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
                 <span>Contribute</span>
               </button>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
                 <span>Contact</span>
               </button>
             </div>

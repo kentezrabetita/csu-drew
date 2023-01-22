@@ -8,7 +8,7 @@ const Sidebar = () => {
   const [theme, setTheme] = useState('system');
 
   return (
-    <aside className='hidden h-screen bg-white border-r dark:bg-[#010101] md:block md:fixed md:z-10 md:h-screen md:w-80'>
+    <aside className='hidden h-screen bg-white border-r dark:border-gray-900 dark:bg-[#010101] md:block md:fixed md:z-10 md:h-screen md:w-80'>
       <div>
         <div className='flex flex-row justify-between p-4 px-5 border-b dark:border-gray-900'>
           <div className='flex items-center space-x-3'>
