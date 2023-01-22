@@ -302,19 +302,16 @@ const HomeContent = () => {
             </div>
           </section>
         </div>
-        <footer className='bg-white border-t '>
+        <footer className='w-full bg-white border-t'>
           <div className='container mx-auto'>
-            <div className='flex flex-row items-center justify-center p-2 space-x-4'>
-              <button className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md'>
-                <MdDarkMode />
+            <div className='flex flex-row items-center p-3 space-x-4 text-gray-500'>
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
                 <span>Github</span>
               </button>
-              <button className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md'>
-                <MdDarkMode />
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
                 <span>Contribute</span>
               </button>
-              <button className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md'>
-                <MdDarkMode />
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
                 <span>Contact</span>
               </button>
             </div>
