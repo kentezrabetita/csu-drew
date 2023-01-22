@@ -14,7 +14,7 @@ const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
       <header
         className={` ${
           !showMenu ? 'sticky' : 'hidden'
-        } top-0 z-50 flex flex-row justify-between p-4 px-5 bg-white border-b md:hidden`}
+        } top-0 z-50 flex flex-row justify-between dark:border-gray-800 p-4 px-5 dark:bg-[#010101] dark:text-gray-500 bg-white border-b md:hidden`}
       >
         <div className='flex items-center space-x-3'>
           <button
@@ -22,17 +22,17 @@ const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
               handleShowContent(showMenu);
               setShowMenu(!showMenu);
             }}
-            className='p-2 border rounded-md'
+            className='p-2 border rounded-md dark:border-gray-800'
           >
             <FaGripLines />
           </button>
-          <span className='text-lg font-bold'>Drew</span>
+          <span className='text-lg font-bold dark:text-white'>Drew</span>
         </div>
         <div className='flex items-center space-x-3'>
-          <button className='p-2 border rounded-md'>
+          <button className='p-2 border rounded-md dark:border-gray-800'>
             <FaRedditAlien />
           </button>
-          <button className='p-2 border rounded-md'>
+          <button className='p-2 border rounded-md dark:border-gray-800'>
             <FaDiscord />
           </button>
         </div>
