@@ -46,8 +46,8 @@ const Sidebar = () => {
             </ul>
           </div>
           <footer className='absolute bottom-0 left-0 w-full bg-white border-t'>
-            <div className='flex flex-row items-center justify-between p-2'>
-              <button className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md'>
+            <div className='flex flex-row items-center justify-between p-3'>
+              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md'>
                 <MdDarkMode />
                 <span>Dark Mode</span>
               </button>
