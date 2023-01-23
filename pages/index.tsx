@@ -4,8 +4,13 @@ import HomeContent from '../common/content/home';
 
 export default function HomePage() {
   return (
-    <MainLayout>
-      <HomeContent />
-    </MainLayout>
+    <>
+      <Head>
+        <title>Drew</title>
+      </Head>
+      <MainLayout>
+        <HomeContent />
+      </MainLayout>
+    </>
   );
 }
