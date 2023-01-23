@@ -1,6 +1,7 @@
 import React from 'react';
 import MainLayout from '../common/layouts/main';
 import Head from 'next/head';
+import ContactsContent from '../common/content/contacts';
 
 const ContactsPage = () => {
   return (
@@ -9,7 +10,7 @@ const ContactsPage = () => {
         <title>Contacts</title>
       </Head>
       <MainLayout>
-        <h1>This is the Contacts page.</h1>
+        <ContactsContent />
       </MainLayout>
     </>
   );

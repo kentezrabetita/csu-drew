@@ -1,9 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Sidebar from '../components/sidebar';
-import Footer from '../components/footer';
-import { MdDarkMode } from 'react-icons/md';
-import { IoMdSettings } from 'react-icons/io';
 
 const HomeContent = () => {
   return (

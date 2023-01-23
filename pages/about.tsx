@@ -1,6 +1,7 @@
 import React from 'react';
 import MainLayout from '../common/layouts/main';
 import Head from 'next/head';
+import AboutContent from '../common/content/about';
 
 const AboutPage = () => {
   return (
@@ -9,7 +10,7 @@ const AboutPage = () => {
         <title>About</title>
       </Head>
       <MainLayout>
-        <h1>This is the About page.</h1>
+        <AboutContent />
       </MainLayout>
     </>
   );
