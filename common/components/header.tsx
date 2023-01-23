@@ -117,15 +117,21 @@ const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
               </div>
               <div className='p-3'>
                 <ul className='text-sm font-bold'>
-                  <li className='p-2 bg-gray-100 border rounded-md dark:border-gray-800 dark:bg-gray-900 dark:text-gray-500'>
-                    <Link href={'/'}>Links</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/contacts'}>Contacts</Link>
-                  </li>
-                  <li className='p-2'>
-                    <Link href={'/about'}>About</Link>
-                  </li>
+                  <Link href={'/'}>
+                    <li className='p-2 rounded-md cursor-pointer dark:text-gray-500 hover:bg-gray-100 hover:dark:bg-gray-900'>
+                      Links
+                    </li>
+                  </Link>
+                  <Link href={'/contacts'}>
+                    <li className='p-2 rounded-md cursor-pointer dark:text-gray-500 hover:bg-gray-100 hover:dark:bg-gray-900'>
+                      Contacts
+                    </li>
+                  </Link>
+                  <Link href={'/about'}>
+                    <li className='p-2 rounded-md cursor-pointer dark:text-gray-500 hover:bg-gray-100 hover:dark:bg-gray-900'>
+                      About
+                    </li>
+                  </Link>
                 </ul>
               </div>
             </div>

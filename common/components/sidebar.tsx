@@ -76,16 +76,21 @@ const Sidebar = () => {
           </div>
           <div className='p-3'>
             <ul className='text-sm font-bold'>
-              {/* bg-gray-100 border dark:border-gray-900 dark:bg-gray-900 */}
-              <li className='p-2 rounded-md cursor-pointer dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-900'>
-                <Link href={'/'}>Links</Link>
-              </li>
-              <li className='p-2 rounded-md cursor-pointer dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-900'>
-                <Link href={'/contacts'}>Contacts</Link>
-              </li>
-              <li className='p-2 rounded-md cursor-pointer dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-900'>
-                <Link href={'/about'}>About</Link>
-              </li>
+              <Link href={'/'}>
+                <li className='p-2 rounded-md cursor-pointer dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-900'>
+                  Links
+                </li>
+              </Link>
+              <Link href={'/contacts'}>
+                <li className='p-2 rounded-md cursor-pointer dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-900'>
+                  Contacts
+                </li>
+              </Link>
+              <Link href={'/about'}>
+                <li className='p-2 rounded-md cursor-pointer dark:text-gray-400 hover:bg-gray-100 hover:dark:bg-gray-900'>
+                  About
+                </li>
+              </Link>
             </ul>
           </div>
           <footer className='absolute bottom-0 left-0 w-full border-t dark:border-gray-900'>
