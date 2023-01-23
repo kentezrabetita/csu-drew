@@ -1,13 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaGripLines, FaDiscord, FaRedditAlien } from 'react-icons/fa';
 import { CgClose } from 'react-icons/cg';
-import { MdDarkMode } from 'react-icons/md';
+import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { IoMdSettings } from 'react-icons/io';
+import { useTheme } from 'next-themes';
 
 import Link from 'next/link';
 
 const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
   const [showMenu, setShowMenu] = useState(false);
+  const { systemTheme, theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const renderThemeChanger = () => {
+    if (!mounted) return null;
+
+    const currentTheme = theme === 'system' ? systemTheme : theme;
+
+    <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'>
+      <MdDarkMode />
+      <span>Dark Mode</span>
+    </button>;
+
+    if (currentTheme === 'dark') {
+      return (
+        <button
+          onClick={() => setTheme('light')}
+          className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400'
+        >
+          <MdLightMode />
+          <span>Light Mode</span>
+        </button>
+      );
+    } else {
+      return (
+        <button
+          onClick={() => setTheme('dark')}
+          className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400'
+        >
+          <MdDarkMode />
+          <span>Dark Mode</span>
+        </button>
+      );
+    }
+  };
 
   return (
     <>
@@ -91,10 +131,7 @@ const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
             </div>
             <footer className='fixed bottom-0 left-0 z-10 w-full dark:border-gray-800 dark:bg-[#010101] dark:text-gray-500 border-t'>
               <div className='flex flex-row items-center justify-between p-2'>
-                <button className='flex flex-row items-center p-2 space-x-4 bg-gray-100 border rounded-md dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400'>
-                  <MdDarkMode />
-                  <span>Dark Mode</span>
-                </button>
+                {renderThemeChanger()}
                 <a className='p-2'>
                   <IoMdSettings />
                 </a>
