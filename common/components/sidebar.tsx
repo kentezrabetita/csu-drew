@@ -1,11 +1,51 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { FaDiscord, FaRedditAlien } from 'react-icons/fa';
-import { MdDarkMode } from 'react-icons/md';
+import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { IoMdSettings } from 'react-icons/io';
 
+import { useTheme } from 'next-themes';
+
 const Sidebar = () => {
-  const [theme, setTheme] = useState('system');
+  const { systemTheme, theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const renderThemeChanger = () => {
+    if (!mounted) return null;
+
+    const currentTheme = theme === 'system' ? systemTheme : theme;
+
+    <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'>
+      <MdDarkMode />
+      <span>Dark Mode</span>
+    </button>;
+
+    if (currentTheme === 'dark') {
+      return (
+        <button
+          onClick={() => setTheme('light')}
+          className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'
+        >
+          <MdLightMode />
+          <span>Light Mode</span>
+        </button>
+      );
+    } else {
+      return (
+        <button
+          onClick={() => setTheme('dark')}
+          className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'
+        >
+          <MdDarkMode />
+          <span>Dark Mode</span>
+        </button>
+      );
+    }
+  };
 
   return (
     <aside className='hidden h-screen bg-white border-r dark:border-gray-900 dark:bg-[#010101] md:block md:fixed md:z-10 md:h-screen md:w-80'>
@@ -49,10 +89,7 @@ const Sidebar = () => {
           </div>
           <footer className='absolute bottom-0 left-0 w-full border-t dark:border-gray-900'>
             <div className='flex flex-row items-center justify-between p-3'>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'>
-                <MdDarkMode />
-                <span>Dark Mode</span>
-              </button>
+              {renderThemeChanger()}
               <a className='p-2 dark:text-gray-400'>
                 <IoMdSettings />
               </a>
