@@ -182,20 +182,6 @@ const HomeContent = () => {
               </div>
               <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
                 <Link
-                  href={'https://www.reddit.com/r/carsu'}
-                  target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
-                >
-                  Reddit
-                </Link>
-                <Link
-                  href={'https://discord.gg/gPc3myEGZV'}
-                  target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
-                >
-                  Discord
-                </Link>
-                <Link
                   href={
                     'https://www.carsu.edu.ph/?q=student-campus-org/student-campus-organization'
                   }
@@ -301,16 +287,17 @@ const HomeContent = () => {
         </div>
         <footer className='w-full border-t dark:border-gray-900'>
           <div className='container mx-auto'>
-            <div className='flex flex-row items-center p-3 space-x-4 text-gray-500'>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
-                <span>Github</span>
-              </button>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
-                <span>Contribute</span>
-              </button>
-              <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
-                <span>Contact</span>
-              </button>
+            <div className='flex flex-row items-center justify-center p-3 space-x-4 text-gray-500'>
+              <p className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 rounded-md dark:text-gray-400 dark:border-gray-900 dark:bg-gray-900'>
+                Made with 💙 by
+                <Link
+                  href={'https://kentezrabetita.vercel.app'}
+                  target='_blank'
+                  className='font-semibold dark:text-blue-500'
+                >
+                  &nbsp;Kent Ezra Betita
+                </Link>
+              </p>
             </div>
           </div>
         </footer>
