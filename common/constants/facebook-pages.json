@@ -1,0 +1,95 @@
+[
+  {
+    "category": "Affiliated",
+    "pages": [
+      {
+        "name": "CSU Library",
+        "description": "Learning Commons Library",
+        "link": "https://www.facebook.com/carsulibrary"
+      },
+      {
+        "name": "CSU MIS",
+        "description": "Management Information System Office",
+        "link": "https://www.facebook.com/carsu.mis/"
+      },
+
+      {
+        "name": "CSU USG",
+        "description": "University Student Government",
+        "link": "https://www.facebook.com/csu.usg"
+      },
+      {
+        "name": "CSU Registrar",
+        "description": "Office of the University Registrar",
+        "link": "https://www.facebook.com/ourcsu"
+      },
+      {
+        "name": "CSU LCO",
+        "description": "League of Campus Organizations",
+        "link": "https://www.facebook.com/ourcsu"
+      }
+    ]
+  },
+  {
+    "category": "Colleges",
+    "pages": [
+      {
+        "name": "CSU CCIS",
+        "description": "College of Computer and Information Sciences",
+        "link": "https://www.facebook.com/cciscarsu"
+      },
+      {
+        "name": "CSU CED",
+        "description": "College of Education",
+        "link": "https://www.facebook.com/carsuced"
+      }
+    ]
+  },
+  {
+    "category": "Departments",
+    "pages": [
+      {
+        "name": "Mathematics Department",
+        "link": "https://www.facebook.com/csumathdept"
+      },
+      {
+        "name": "Electronics Engineering",
+        "link": "https://www.facebook.com/carsuece"
+      },
+      {
+        "name": "Physics Department",
+        "link": "https://www.facebook.com/carsuphysicsdepartment"
+      }
+    ]
+  },
+  {
+    "category": "Organizations",
+    "pages": [
+      {
+        "name": "GAMEE",
+        "description": "Gaming and Multiplayer Esports Enthusiasts",
+        "link": "https://www.facebook.com/csugamee/"
+      }
+    ]
+  },
+  {
+    "category": "Programs",
+    "pages": [
+      {
+        "name": "Navigatu",
+        "description": "Technology Business Incubator (TBI)",
+        "link": "https://www.facebook.com/navigatu"
+      }
+    ]
+  },
+  {
+    "category": "Student-made",
+    "pages": [
+      {
+        "name": "Caraga Stress University",
+        "description": "Parody Page",
+        "link": "https://www.facebook.com/CSUUNOFFICIALPAGE"
+      }
+    ]
+  }
+]
