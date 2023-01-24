@@ -16,6 +16,8 @@ import { BsCalendarPlus, BsCalendarRange, BsHouseDoor } from 'react-icons/bs';
 import { RiSurveyLine } from 'react-icons/ri';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { SiGooglescholar } from 'react-icons/si';
+import { HiOutlineUserGroup } from 'react-icons/hi';
+import { GrFacebook } from 'react-icons/gr';
 
 const HomeContent = () => {
   return (
@@ -216,16 +218,18 @@ const HomeContent = () => {
                     'https://www.carsu.edu.ph/?q=student-campus-org/student-campus-organization'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Clubs
+                  <HiOutlineUserGroup />
+                  <span>Clubs</span>
                 </Link>
                 <Link
                   href={'/facebook'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Facebook
+                  <GrFacebook />
+                  <span>Facebook</span>
                 </Link>
               </div>
             </div>
