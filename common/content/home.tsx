@@ -171,7 +171,6 @@ const HomeContent = () => {
                 </Link>
                 <Link
                   href={'/'}
-                  target='_blank'
                   className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   <GiReceiveMoney />
@@ -179,7 +178,6 @@ const HomeContent = () => {
                 </Link>
                 <Link
                   href={'/'}
-                  target='_blank'
                   className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   <SiGooglescholar />
@@ -199,7 +197,6 @@ const HomeContent = () => {
               <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
                 <Link
                   href={'/'}
-                  target='_blank'
                   className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   <BsHouseDoor />
@@ -331,6 +328,8 @@ const HomeContent = () => {
             </div>
           </section>
         </div>
+
+        {/* Footer Section */}
         <footer className='w-full border-t dark:border-gray-900'>
           <div className='container mx-auto'>
             <div className='flex flex-row items-center justify-center p-3 space-x-4 text-gray-500'>
