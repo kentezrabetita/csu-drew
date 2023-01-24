@@ -2,13 +2,20 @@ import React from 'react';
 import Link from 'next/link';
 import Sidebar from '../components/sidebar';
 
-import { MdSchool, MdGrade, MdOutlineHowToVote } from 'react-icons/md';
+import {
+  MdSchool,
+  MdGrade,
+  MdOutlineHowToVote,
+  MdOutlineAccountBalanceWallet
+} from 'react-icons/md';
 import { IoBookSharp, IoLibrary } from 'react-icons/io5';
 import { SlDocs } from 'react-icons/sl';
 import { CgTranscript } from 'react-icons/cg';
 import { CgFileDocument } from 'react-icons/cg';
 import { BsCalendarPlus, BsCalendarRange } from 'react-icons/bs';
 import { RiSurveyLine } from 'react-icons/ri';
+import { GiReceiveMoney } from 'react-icons/gi';
+import { SiGooglescholar } from 'react-icons/si';
 
 const HomeContent = () => {
   return (
@@ -151,23 +158,26 @@ const HomeContent = () => {
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=My_balance'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Balance
+                  <MdOutlineAccountBalanceWallet />
+                  <span>Balance</span>
                 </Link>
                 <Link
                   href={'/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Financial Aid
+                  <GiReceiveMoney />
+                  <span>Financial Aid</span>
                 </Link>
                 <Link
                   href={'/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Scholarship
+                  <SiGooglescholar />
+                  <span>Scholarship</span>
                 </Link>
               </div>
             </div>
