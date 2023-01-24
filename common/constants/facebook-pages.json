@@ -49,15 +49,18 @@
     "category": "Departments",
     "pages": [
       {
-        "name": "Mathematics Department",
+        "name": "Mathematics",
+        "description": "Department of Mathematics",
         "link": "https://www.facebook.com/csumathdept"
       },
       {
         "name": "Electronics Engineering",
+        "description": "Department of Electronics Engineering",
         "link": "https://www.facebook.com/carsuece"
       },
       {
-        "name": "Physics Department",
+        "name": "Physics",
+        "description": "Department of Physics",
         "link": "https://www.facebook.com/carsuphysicsdepartment"
       }
     ]

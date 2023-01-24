@@ -28,7 +28,12 @@ const FacebookContent = () => {
                           className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                         >
                           <FaExternalLinkSquareAlt />
-                          <span>{page.name}</span>
+                          <div className='flex flex-col space-y-1'>
+                            <span>{page.name}</span>
+                            <span className='text-xs font-normal text-gray-600'>
+                              {page.description}
+                            </span>
+                          </div>
                         </Link>
                       );
                     })}
