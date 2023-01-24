@@ -19,16 +19,11 @@ const Sidebar = () => {
 
     const currentTheme = theme === 'system' ? systemTheme : theme;
 
-    <button className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'>
-      <MdDarkMode />
-      <span>Dark Mode</span>
-    </button>;
-
     if (currentTheme === 'dark') {
       return (
         <button
           onClick={() => setTheme('light')}
-          className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'
+          className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'
         >
           <MdLightMode />
           <span>Light Mode</span>
@@ -38,7 +33,7 @@ const Sidebar = () => {
       return (
         <button
           onClick={() => setTheme('dark')}
-          className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 border rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'
+          className='flex flex-row items-center p-1 px-2 space-x-4 bg-gray-100 rounded-md dark:border-gray-900 dark:text-gray-400 dark:bg-gray-900'
         >
           <MdDarkMode />
           <span>Dark Mode</span>
