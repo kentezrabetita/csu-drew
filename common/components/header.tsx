@@ -69,12 +69,20 @@ const Header = ({ handleShowContent }: { handleShowContent: Function }) => {
           <span className='text-lg font-bold dark:text-white'>Drew</span>
         </div>
         <div className='flex items-center space-x-3'>
-          <button className='p-2 border rounded-md dark:border-gray-800'>
+          <Link
+            href={'https://www.reddit.com/r/carsu'}
+            target='_blank'
+            className='p-2 border rounded-md dark:border-gray-800'
+          >
             <FaRedditAlien />
-          </button>
-          <button className='p-2 border rounded-md dark:border-gray-800'>
+          </Link>
+          <Link
+            href={'https://discord.gg/gPc3myEGZV'}
+            target='_blank'
+            className='p-2 border rounded-md dark:border-gray-800'
+          >
             <FaDiscord />
-          </button>
+          </Link>
         </div>
       </header>
 
