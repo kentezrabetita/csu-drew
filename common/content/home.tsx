@@ -12,7 +12,7 @@ import { IoBookSharp, IoLibrary } from 'react-icons/io5';
 import { SlDocs } from 'react-icons/sl';
 import { CgTranscript } from 'react-icons/cg';
 import { CgFileDocument } from 'react-icons/cg';
-import { BsCalendarPlus, BsCalendarRange } from 'react-icons/bs';
+import { BsCalendarPlus, BsCalendarRange, BsHouseDoor } from 'react-icons/bs';
 import { RiSurveyLine } from 'react-icons/ri';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { SiGooglescholar } from 'react-icons/si';
@@ -194,9 +194,10 @@ const HomeContent = () => {
                 <Link
                   href={'/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Dorms
+                  <BsHouseDoor />
+                  <span>Dorms</span>
                 </Link>
               </div>
             </div>
