@@ -16,7 +16,11 @@ import { BsCalendarPlus, BsCalendarRange, BsHouseDoor } from 'react-icons/bs';
 import { RiSurveyLine } from 'react-icons/ri';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { SiGooglescholar } from 'react-icons/si';
-import { HiOutlineUserGroup, HiOutlineBookOpen } from 'react-icons/hi';
+import {
+  HiOutlineUserGroup,
+  HiOutlineBookOpen,
+  HiOutlineLibrary
+} from 'react-icons/hi';
 import { GrFacebook } from 'react-icons/gr';
 
 const HomeContent = () => {
@@ -278,44 +282,50 @@ const HomeContent = () => {
                 <Link
                   href={'http://cofes.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  COFES
+                  <HiOutlineLibrary />
+                  <span>COFES</span>
                 </Link>
                 <Link
                   href={'https://5d8c147883e8f.site123.me/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  CMNS
+                  <HiOutlineLibrary />
+                  <span>CMNS</span>
                 </Link>
                 <Link
                   href={'http://cegs.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  CEGS
+                  <HiOutlineLibrary />
+                  <span>CEGS</span>
                 </Link>
                 <Link
                   href={'https://ccis.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  CCIS
+                  <HiOutlineLibrary />
+                  <span>CCIS</span>
                 </Link>
                 <Link
                   href={'https://ccis.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  CAA
+                  <HiOutlineLibrary />
+                  <span>CAA</span>
                 </Link>
                 <Link
                   href={'http://chass.carsu.edu.ph/'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  CHASS
+                  <HiOutlineLibrary />
+                  <span>CHASS</span>
                 </Link>
               </div>
             </div>
