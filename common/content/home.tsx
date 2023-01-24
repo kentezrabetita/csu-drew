@@ -2,9 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 import Sidebar from '../components/sidebar';
 
-import { MdSchool, MdGrade } from 'react-icons/md';
+import { MdSchool, MdGrade, MdOutlineHowToVote } from 'react-icons/md';
 import { IoBookSharp, IoLibrary } from 'react-icons/io5';
 import { SlDocs } from 'react-icons/sl';
+import { CgTranscript } from 'react-icons/cg';
+import { CgFileDocument } from 'react-icons/cg';
+import { BsCalendarPlus, BsCalendarRange } from 'react-icons/bs';
+import { RiSurveyLine } from 'react-icons/ri';
 
 const HomeContent = () => {
   return (
@@ -71,59 +75,66 @@ const HomeContent = () => {
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=evaluation'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Grades
+                  <MdGrade />
+                  <span>Grades</span>
                 </Link>
                 <Link
                   href={
                     'https://myschool.carsu.edu.ph/index.php?q=My_transcript'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Transcript
+                  <CgTranscript />
+                  <span>Transcript</span>
                 </Link>
                 <Link
                   href={
                     'https://myschool.carsu.edu.ph/index.php?q=onlineclearance'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Clearance
+                  <CgFileDocument />
+                  <span>Clearance</span>
                 </Link>
                 <Link
                   href={
                     'https://myschool.carsu.edu.ph/index.php?q=myappointment'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Appointment
+                  <BsCalendarPlus />
+                  <span>Appointment</span>
                 </Link>
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=My_schedule'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Schedule
+                  <BsCalendarRange />
+                  <span>Schedule</span>
                 </Link>
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=mysurvey'}
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Survey
+                  <RiSurveyLine />
+                  <span>Survey</span>
                 </Link>
                 <Link
                   href={
                     'https://myschool.carsu.edu.ph/index.php?q=csg-election'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Votes
+                  <MdOutlineHowToVote />
+                  <span>Vote</span>
                 </Link>
               </div>
             </div>
