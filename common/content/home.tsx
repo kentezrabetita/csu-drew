@@ -226,7 +226,6 @@ const HomeContent = () => {
                 </Link>
                 <Link
                   href={'/facebook'}
-                  target='_blank'
                   className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
                   <GrFacebook />
