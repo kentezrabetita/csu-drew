@@ -16,7 +16,7 @@ import { BsCalendarPlus, BsCalendarRange, BsHouseDoor } from 'react-icons/bs';
 import { RiSurveyLine } from 'react-icons/ri';
 import { GiReceiveMoney } from 'react-icons/gi';
 import { SiGooglescholar } from 'react-icons/si';
-import { HiOutlineUserGroup } from 'react-icons/hi';
+import { HiOutlineUserGroup, HiOutlineBookOpen } from 'react-icons/hi';
 import { GrFacebook } from 'react-icons/gr';
 
 const HomeContent = () => {
@@ -248,18 +248,20 @@ const HomeContent = () => {
                     'https://drive.google.com/drive/folders/1-2P2uJiziZHND_8gH5-d20uDmAiPs5gt'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  E-books
+                  <HiOutlineBookOpen />
+                  <span>E-books</span>
                 </Link>
                 <Link
                   href={
                     'https://www.carsu.edu.ph/sites/default/files/downloadables/Student%20Handbook%20Final%20Revision.pdf'
                   }
                   target='_blank'
-                  className='p-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                  className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                 >
-                  Handbook
+                  <HiOutlineBookOpen />
+                  <span>Handbook</span>
                 </Link>
               </div>
             </div>
