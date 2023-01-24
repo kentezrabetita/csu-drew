@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from '../components/header';
+import MobileSidebar from '../components/mobile-sidebar';
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const [showContent, setShowContent] = useState(true);
@@ -10,7 +10,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <>
-      <Header handleShowContent={handleShowContent} />
+      <MobileSidebar handleShowContent={handleShowContent} />
       {showContent && (
         <>
           <main className='relative'>{children}</main>
