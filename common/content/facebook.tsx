@@ -25,9 +25,11 @@ const FacebookContent = () => {
                           key={page.name}
                           href={page.link}
                           target='_blank'
-                          className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
+                          className='flex flex-row p-2 text-sm font-bold text-gray-500 border border-gray-100 rounded-md sm:p-4 sm:space-x-4 sm:items-center dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
                         >
-                          <FaExternalLinkSquareAlt />
+                          <div className='hidden text-md sm:block'>
+                            <FaExternalLinkSquareAlt />
+                          </div>
                           <div className='flex flex-col space-y-1'>
                             <span>{page.name}</span>
                             <span className='text-xs font-normal text-gray-600'>
