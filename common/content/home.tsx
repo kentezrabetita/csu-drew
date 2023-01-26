@@ -28,7 +28,7 @@ const HomeContent = () => {
     <div className='flex flex-row dark:bg-[#010101] dark:text-gray-300'>
       <Sidebar />
       <div className='flex flex-col items-center justify-center w-full md:ml-80'>
-        <div className='container flex flex-col w-full p-4 px-5 pb-10 space-y-10 lg:px-20 xl:px-36'>
+        <div className='container flex flex-col w-full p-4 px-5 pb-10 space-y-7 lg:px-20 xl:px-36'>
           {/* Services Section */}
           <section>
             <div className='flex flex-col space-y-3'>
@@ -36,7 +36,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Services</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={
                     'https://sso.carsu.edu.ph/sso/module.php/core/loginuserpassorg.php?AuthState=_0e2b7048b06cbff8986ad5f0895a3089516863451b%3Ahttps%3A%2F%2Fsso.carsu.edu.ph%2Fsso%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Fsso%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fdefault-sp%26cookieTime%3D1674073107%26RelayState%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Findex.php%253Fq%253Dsaml_login'
@@ -84,7 +84,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Account</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=evaluation'}
                   target='_blank'
@@ -160,7 +160,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Financial</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={'https://myschool.carsu.edu.ph/index.php?q=My_balance'}
                   target='_blank'
@@ -194,7 +194,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Housing</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={'/'}
                   className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
@@ -213,7 +213,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Socials</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={
                     'https://www.carsu.edu.ph/?q=student-campus-org/student-campus-organization'
@@ -242,7 +242,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Resources</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={
                     'https://drive.google.com/drive/folders/1-2P2uJiziZHND_8gH5-d20uDmAiPs5gt'
@@ -274,7 +274,7 @@ const HomeContent = () => {
                 <h3 className='text-xl font-bold'>Colleges</h3>
                 {/* <h3 className='pr-2 text-sm text-gray-500'>more</h3> */}
               </div>
-              <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+              <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                 <Link
                   href={'http://cofes.carsu.edu.ph/'}
                   target='_blank'

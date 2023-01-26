@@ -10,7 +10,7 @@ const FacebookContent = () => {
     <div className='flex flex-row dark:bg-[#010101] dark:text-gray-300'>
       <Sidebar />
       <div className='flex flex-col items-center justify-center w-full md:ml-80'>
-        <div className='container flex flex-col w-full p-4 px-5 pb-10 space-y-10 lg:px-20 xl:px-36'>
+        <div className='container flex flex-col w-full p-4 px-5 pb-10 space-y-5 lg:px-20 xl:px-36'>
           {FacebookLinks.map((link) => {
             return (
               <section key={link.category}>
@@ -18,7 +18,7 @@ const FacebookContent = () => {
                   <div className='flex items-center justify-between'>
                     <h3 className='text-xl font-bold'>{link.category}</h3>
                   </div>
-                  <div className='grid grid-cols-2 gap-4 lg:grid-cols-3'>
+                  <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                     {link.pages.map((page) => {
                       return (
                         <Link
