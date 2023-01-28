@@ -1,0 +1,167 @@
+[
+  {
+    "category": "Services",
+    "links": [
+      {
+        "icon": "MdSchool",
+        "name": "MySchool",
+        "link": "https://sso.carsu.edu.ph/sso/module.php/core/loginuserpassorg.php?AuthState=_0e2b7048b06cbff8986ad5f0895a3089516863451b%3Ahttps%3A%2F%2Fsso.carsu.edu.ph%2Fsso%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Fsso%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fdefault-sp%26cookieTime%3D1674073107%26RelayState%3Dhttps%253A%252F%252Fmyschool.carsu.edu.ph%252Findex.php%253Fq%253Dsaml_login"
+      },
+      {
+        "icon": "IoBookSharp",
+        "name": "MyLMS",
+        "link": "https://masaolms.carsu.edu.ph/login/index.php"
+      },
+      {
+        "icon": "SlDocs",
+        "name": "MyAdmissions",
+        "link": "https://admission.carsu.edu.ph/sites/admission_portal/"
+      },
+      {
+        "icon": "IoLibrary",
+        "name": "MyLibrary",
+        "link": "https://csulibrary.github.io/carsulibrary/"
+      }
+    ]
+  },
+  {
+    "category": "Account",
+    "links": [
+      {
+        "icon": "MdGrade",
+        "name": "Grades",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=evaluation"
+      },
+      {
+        "icon": "CgTranscript",
+        "name": "Transcript",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=My_transcript"
+      },
+      {
+        "icon": "CgFileDocument",
+        "name": "Clearance",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=onlineclearance"
+      },
+      {
+        "icon": "BsCalendarPlus",
+        "name": "Appointment",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=myappointment"
+      },
+      {
+        "icon": "BsCalendarRange",
+        "name": "Schedule",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=My_schedule"
+      },
+      {
+        "icon": "RiSurveyLine",
+        "name": "Survey",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=mysurvey"
+      },
+      {
+        "icon": "MdOutlineHowToVote",
+        "name": "Vote",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=csg-election"
+      }
+    ]
+  },
+  {
+    "category": "Financial",
+    "links": [
+      {
+        "icon": "MdOutlineAccountBalanceWallet",
+        "name": "Balance",
+        "link": "https://myschool.carsu.edu.ph/index.php?q=My_balance"
+      },
+      {
+        "icon": "GiReceiveMoney",
+        "name": "Financial Aid",
+        "link": ""
+      },
+      {
+        "icon": "SiGooglescholar",
+        "name": "Scholarship",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "category": "Housing",
+    "links": [
+      {
+        "icon": "BsHouseDoor",
+        "name": "Dorms",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "category": "Socials",
+    "links": [
+      {
+        "icon": "HiOutlineUserGroup",
+        "name": "Clubs",
+        "link": "https://www.carsu.edu.ph/?q=student-campus-org/student-campus-organization"
+      },
+      {
+        "icon": "GrFacebook",
+        "name": "Facebook",
+        "link": "http://localhost:3000/facebook"
+      }
+    ]
+  },
+  {
+    "category": "Resources",
+    "links": [
+      {
+        "icon": "HiOutlineBookOpen",
+        "name": "E-books",
+        "link": "https://drive.google.com/drive/folders/1-2P2uJiziZHND_8gH5-d20uDmAiPs5gt"
+      },
+      {
+        "icon": "HiOutlineBookOpen",
+        "name": "Handbook",
+        "link": "https://www.carsu.edu.ph/sites/default/files/downloadables/Student%20Handbook%20Final%20Revision.pdf"
+      }
+    ]
+  },
+  {
+    "category": "Colleges",
+    "links": [
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "CEGS",
+        "link": "http://cegs.carsu.edu.ph/"
+      },
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "CAA",
+        "link": "https://ccis.carsu.edu.ph/"
+      },
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "CMNS",
+        "link": "https://5d8c147883e8f.site123.me/"
+      },
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "CHASS",
+        "link": "http://chass.carsu.edu.ph/"
+      },
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "COFES",
+        "link": "http://cofes.carsu.edu.ph/"
+      },
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "CCIS",
+        "link": "https://ccis.carsu.edu.ph/"
+      },
+      {
+        "icon": "HiOutlineLibrary",
+        "name": "CED",
+        "link": "https://ced.carsu.edu.ph/"
+      }
+    ]
+  }
+]
