@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Sidebar from '../components/sidebar';
 import Icon from '../components/icon';
-import Links from '../constants/home-content.json';
+import Links from '../data/home-content.json';
 
 const HomeContent = () => {
   return (

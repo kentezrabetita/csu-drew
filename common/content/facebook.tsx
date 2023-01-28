@@ -1,7 +1,7 @@
 import Sidebar from '../components/sidebar';
 import Link from 'next/link';
 
-import FacebookLinks from '../constants/facebook-pages.json';
+import FacebookLinks from '../data/facebook-pages.json';
 
 import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 
