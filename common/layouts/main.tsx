@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import MobileSidebar from '../components/mobile-sidebar';
+import MobileSidebar from '../components/mobile/sidebar.mobile';
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   const [showContent, setShowContent] = useState(true);
