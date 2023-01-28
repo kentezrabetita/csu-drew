@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { FaDiscord, FaRedditAlien } from 'react-icons/fa';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { IoMdSettings } from 'react-icons/io';
-
 import { useTheme } from 'next-themes';
 
 const Sidebar = () => {

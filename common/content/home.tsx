@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import Sidebar from '../components/sidebar';
-import Icon from '../components/icon';
 import Links from '../data/home-content.json';
 import LinkComponent from '../components/link';
 

@@ -4,7 +4,6 @@ import { CgClose } from 'react-icons/cg';
 import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { IoMdSettings } from 'react-icons/io';
 import { useTheme } from 'next-themes';
-
 import Link from 'next/link';
 
 const MobileSidebar = ({

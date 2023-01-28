@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 
 const Custom404 = () => {
-  const youtubeLink = 'https://youtu.be/1yyRvyNQ5rQ?t=454';
   return (
     <div className='flex flex-col items-center justify-center h-screen space-y-4 text-black bg-white'>
       <div className='text-3xl font-bold'>You got yourself a 404!</div>
