@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Sidebar from '../components/sidebar';
 import Icon from '../components/icon';
 import Links from '../data/home-content.json';
+import LinkComponent from '../components/link';
 
 const HomeContent = () => {
   return (
@@ -21,15 +22,13 @@ const HomeContent = () => {
                   <div className='grid grid-cols-1 gap-4 xm:grid-cols-2 lg:grid-cols-3'>
                     {category.links.map((link) => {
                       return (
-                        <Link
+                        <LinkComponent
                           key={link.name}
-                          href={link.url}
-                          target='_blank'
-                          className='flex flex-row items-center p-4 space-x-4 text-sm font-bold text-gray-500 border border-gray-100 rounded-md dark:bg-gray-900 dark:text-gray-400 dark:border-gray-700 bg-gray-50'
-                        >
-                          <Icon name={link.icon} />
-                          <span>{link.name}</span>
-                        </Link>
+                          icon={link.icon}
+                          title={link.name}
+                          url={link.url}
+                          target={link.target || ''}
+                        />
                       );
                     })}
                   </div>
