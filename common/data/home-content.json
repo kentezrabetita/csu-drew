@@ -105,7 +105,7 @@
       {
         "icon": "GrFacebook",
         "name": "Facebook",
-        "url": "http://localhost:3000/facebook",
+        "url": "/facebook",
         "target": "_self"
       }
     ]
